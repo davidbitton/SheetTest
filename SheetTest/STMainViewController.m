@@ -42,7 +42,7 @@
     if (!window) {	
         window = [[NSApplication sharedApplication].windows objectAtIndex:0];	
     }	
-    
+
     [NSApp beginSheet:[_sheet window] 
        modalForWindow:window 
         modalDelegate:self 
