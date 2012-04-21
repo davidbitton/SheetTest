@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F7778F861514D526002961BE /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7778F851514D526002961BE /* WebKit.framework */; };
 		FFD3CB4F15138376004EFFC0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFD3CB4E15138376004EFFC0 /* Cocoa.framework */; };
 		FFD3CB5915138376004EFFC0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FFD3CB5715138376004EFFC0 /* InfoPlist.strings */; };
 		FFD3CB5B15138376004EFFC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FFD3CB5A15138376004EFFC0 /* main.m */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F7778F851514D526002961BE /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		FFD3CB4A15138376004EFFC0 /* SheetTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SheetTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFD3CB4E15138376004EFFC0 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		FFD3CB5115138376004EFFC0 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -44,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7778F861514D526002961BE /* WebKit.framework in Frameworks */,
 				FFD3CB4F15138376004EFFC0 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -80,6 +83,7 @@
 		FFD3CB5015138376004EFFC0 /* Other Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F7778F851514D526002961BE /* WebKit.framework */,
 				FFD3CB5115138376004EFFC0 /* AppKit.framework */,
 				FFD3CB5215138376004EFFC0 /* CoreData.framework */,
 				FFD3CB5315138376004EFFC0 /* Foundation.framework */,
@@ -306,6 +310,7 @@
 				FFD3CB6A15138376004EFFC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,8 +7,13 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import <WebKit/WebKit.h>
 
 @interface STLoginSheetWindowController : NSWindowController
+
+@property (strong) IBOutlet WebView *webView;
+@property (strong) IBOutlet NSProgressIndicator *spinner;
+@property (strong) IBOutlet NSButton *doneButton;
 
 - (IBAction)done:(NSButton *)sender;
 

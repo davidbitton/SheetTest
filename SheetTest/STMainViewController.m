@@ -29,6 +29,10 @@
     return self;
 }
 
+-(void)awakeFromNib {
+    [[[self view] window] setDefaultButtonCell:[openButton cell]];
+}
+
 - (void)sheetDidEnd:(NSWindow *)sheet returnCode:(NSInteger)returnCode contextInfo:(void *)contextInfo {
     if (returnCode == NSOKButton)
 		NSBeep();
